@@ -88,4 +88,54 @@ In interpreter.py, the program interprets simple arithmetic expressions and outp
 
 In meal.py, the program checks the input time and determines if it falls within breakfast, lunch, or dinner time ranges, outputting the corresponding meal time.
 
-Feel free to explore each problem set, run the programs, and modify them as needed!
+
+## Problem Set 2
+
+### [camelCase](Problem%20set%202%20Loops/Camel%20Case/camel.py)
+
+**Description:** This program converts camel case variable names into snake case.
+
+**File:** `camel.py`
+
+The program prompts the user for a variable name in camel case and outputs the corresponding name in snake case. For example, `firstName` becomes `first_name`.
+
+### [Coke Machine](Problem%20set%202%20Loops/Coke%20Machine/coke.py)
+
+**Description:** This program simulates a Coke vending machine, accepting coins and calculating change.
+
+**File:** `coke.py`
+
+The program prompts the user to insert coins (25 cents, 10 cents, or 5 cents) until the total reaches or exceeds 50 cents. It then outputs how much change is owed.
+
+### [Just setting up my twttr](Problem%20set%202%20Loops/Twttr/twttr.py)
+
+**Description:** This program removes vowels from the input text.
+
+**File:** `twttr.py`
+
+The program prompts the user for a string of text and outputs that same text but with all vowels (A, E, I, O, and U) removed, whether they are in uppercase or lowercase.
+
+### [Vanity Plates](Problem%20set%202%20Loops/Vanity%20Plates/plates.py)
+
+**Description:** This program validates vanity license plates based on specific rules.
+
+**File:** `plates.py`
+
+The program prompts the user for a vanity plate and checks if it meets the following criteria:
+- It starts with at least two letters.
+- It contains a maximum of 6 characters and a minimum of 2 characters.
+- Numbers, if used, must be at the end and cannot start with '0'.
+- No periods, spaces, or punctuation marks are allowed.
+
+It outputs "Valid" if all conditions are met, otherwise "Invalid".
+
+### [Nutrition Facts](Problem%20set%202%20Loops/Nutrition%20Facts/nutrition.py)
+
+**Description:** This program outputs the number of calories for a given fruit.
+
+**File:** `nutrition.py`
+
+The program prompts the user to input the name of a fruit (case-insensitively) and outputs the number of calories in one portion of that fruit, based on the FDA's nutrition facts. If the fruit is not in the list, it outputs nothing.
+
+## Feel free to explore each problem set, run the programs, and modify them as needed!
+
