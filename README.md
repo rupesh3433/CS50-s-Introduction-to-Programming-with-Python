@@ -2,6 +2,11 @@
 
 Welcome to CS50's Introduction to Programming with Python! This repository contains solutions to various programming challenges presented in the course. Each problem set is outlined below along with a brief explanation of what each program does.
 
+
+
+
+
+
 ## Problem Set 0
 
 ### [Indoor Voice](Problem%20set%200%20Functions%20and%20Variables/Indoor%20Voice/indoor.py)
@@ -46,6 +51,10 @@ This program calculates the tip amount for a given meal cost and tip percentage 
 
 
 
+
+
+
+
 ## Problem Set 1
 
 ### [Deep Thought](Problem%20set%201%20Conditionals/Deep%20Thought/deep.py)
@@ -87,6 +96,11 @@ In interpreter.py, the program interprets simple arithmetic expressions and outp
 **File:** `meal.py`
 
 In meal.py, the program checks the input time and determines if it falls within breakfast, lunch, or dinner time ranges, outputting the corresponding meal time.
+
+
+
+
+
 
 
 ## Problem Set 2
@@ -136,6 +150,46 @@ It outputs "Valid" if all conditions are met, otherwise "Invalid".
 **File:** `nutrition.py`
 
 The program prompts the user to input the name of a fruit (case-insensitively) and outputs the number of calories in one portion of that fruit, based on the FDA's nutrition facts. If the fruit is not in the list, it outputs nothing.
+
+
+
+
+
+
+
+## Problem Set 3
+
+### [Fuel Gauge](Problem%20set%203%20Exceptions/Fuel%20Gauge/fuel.py)
+
+**Description:** This program prompts the user for a fraction, formatted as X/Y, and outputs the fuel level as a percentage rounded to the nearest integer. If 1% or less remains, it outputs "E" for empty. If 99% or more remains, it outputs "F" for full. It handles exceptions for invalid input.
+
+**File:** `fuel.py`
+
+In fuel.py, the program converts a fraction representing fuel level into a percentage and outputs either the percentage, "E" for empty, or "F" for full, handling any invalid input gracefully.
+
+### [Felipe’s Taqueria](Problem%20set%203%20Exceptions/Felipe's%20Taqueria/taqueria.py)
+
+**Description:** This program allows the user to place an order at Felipe's Taqueria, prompting for items until the user inputs control-d. It displays the total cost after each input, ignoring invalid items and handling exceptions for end of input.
+
+**File:** `taqueria.py`
+
+In taqueria.py, the program takes orders for items from Felipe's menu, calculates the total cost, and handles end-of-input exceptions, ensuring continuous order taking until the user finishes.
+
+### [Grocery List](Problem%20set%203%20Exceptions/Grocery%20List/grocery.py)
+
+**Description:** This program prompts the user for grocery items until the user inputs control-d, then outputs the grocery list in uppercase, sorted alphabetically, and prefixed with the count of each item.
+
+**File:** `grocery.py`
+
+In grocery.py, the program collects grocery items from the user, counts and sorts them alphabetically, and outputs the list in uppercase, handling exceptions for end of input.
+
+### [Outdated](Problem%20set%203%20Exceptions/Outdated/outdated.py)
+
+**Description:** This program prompts the user for a date in either MM/DD/YYYY or "Month D, YYYY" format and converts it to YYYY-MM-DD format. It handles invalid dates by prompting the user again.
+
+**File:** `outdated.py`
+
+In outdated.py, the program converts dates from US format to ISO 8601 format, ensuring correct handling and re-prompting for invalid dates.
 
 ## Feel free to explore each problem set, run the programs, and modify them as needed!
 
