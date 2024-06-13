@@ -191,5 +191,60 @@ In grocery.py, the program collects grocery items from the user, counts and sort
 
 In outdated.py, the program converts dates from US format to ISO 8601 format, ensuring correct handling and re-prompting for invalid dates.
 
+
+
+
+
+## Problem Set 4
+
+### [Emojize](Problem%20set%204%20Libraries/Emojize/emojize.py)
+
+**Description:** This program prompts the user for a string in English and converts any codes or aliases for emojis into their corresponding emoji symbols.
+
+**File:** `emojize.py`
+
+This program takes a user input string containing emoji codes or aliases and outputs the string with the codes replaced by the actual emojis using the `emoji` module.
+
+### [Frank, Ian and Glen’s Letters](Problem%20set%204%20Libraries/Figlet/figlet.py)
+
+**Description:** This program outputs text in ASCII art using FIGlet fonts. The user can specify a font or use a random one.
+
+**File:** `figlet.py`
+
+The program prompts the user for text and prints it in a specified FIGlet font (or a random font if none is specified) using the `pyfiglet` module.
+
+### [Adieu, Adieu](Problem%20set%204%20Libraries/Adieu/adieu.py)
+
+**Description:** This program prompts the user for names, one per line, until the user inputs control-d, then bids farewell to those names in a grammatically correct format.
+
+**File:** `adieu.py`
+
+The program collects names from the user and outputs a farewell message, formatting the names correctly using the `inflect` module to handle the list formatting.
+
+### [Guessing Game](Problem%20set%204%20Libraries/Guess%20Game/game.py)
+
+**Description:** This program implements a number guessing game where the user must guess a randomly generated number within a specified range.
+
+**File:** `game.py`
+
+The program prompts the user to input a level to set the range (1 to level), generates a random number, and guides the user to guess the number, providing feedback on each guess.
+
+### [Little Professor](Problem%20set%204%20Libraries/Little%20Professor/professor.py)
+
+**Description:** This program generates math problems for the user to solve, providing feedback and tracking the user's score.
+
+**File:** `professor.py`
+
+The program prompts the user to choose a level of difficulty, generates ten addition problems, and allows up to three attempts per problem, displaying the correct answer if not solved within three tries.
+
+### [Bitcoin Price Index](Problem%20set%204%20Libraries/Bitcoin%20Price%20Index/bitcoin.py)
+
+**Description:** This program calculates the current cost of a specified number of Bitcoins in USD using the CoinDesk API.
+
+**File:** `bitcoin.py`
+
+The program takes the number of Bitcoins as a command-line argument, fetches the current Bitcoin price from the CoinDesk API, and calculates and outputs the total cost in USD, formatted to four decimal places.
+
+
 ## Feel free to explore each problem set, run the programs, and modify them as needed!
 
