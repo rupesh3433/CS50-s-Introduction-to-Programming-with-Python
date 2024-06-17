@@ -246,5 +246,67 @@ The program prompts the user to choose a level of difficulty, generates ten addi
 The program takes the number of Bitcoins as a command-line argument, fetches the current Bitcoin price from the CoinDesk API, and calculates and outputs the total cost in USD, formatted to four decimal places.
 
 
+
+
+
+
+# Problem Set 5
+
+This repository contains implementations and tests for Problem Set 5 assignments from CS50’s Introduction to Programming with Python.
+
+## 1. [Setting up my twttr](Problem%20set%205%20Unit%20Tests/test_twttr/)
+
+### [twttr.py](Problem%20set%205%20Unit%20Tests/test_twttr/twttr.py)
+
+Implementation of functions related to manipulating strings without vowels. Specifically, the `shorten` function removes all vowels (both uppercase and lowercase) from a given string and returns the modified string.
+
+### [test_twttr.py](Problem%20set%205%20Unit%20Tests/test_twttr/test_twttr.py)
+
+Unit tests for `twttr.py` to thoroughly test the `shorten` function. Includes multiple test cases to ensure correct handling of strings with vowels, mixed cases, and edge cases where no vowels exist.
+
+## 2. [Home Federal Savings Bank](Problem%20set%205%20Unit%20Tests/test_bank/)
+
+### [bank.py](Problem%20set%205%20Unit%20Tests/test_bank/bank.py)
+
+Implementation of banking functions to determine values based on greetings. The `value` function evaluates a greeting string and returns:
+- 0 if the greeting starts with "hello" (case insensitive),
+- 20 if the greeting starts with "h" (but not "hello"),
+- 100 otherwise (if neither condition is met).
+
+### [test_bank.py](Problem%20set%205%20Unit%20Tests/test_bank/test_bank.py)
+
+Unit tests for `bank.py` to ensure accurate functionality of the `value` function across various scenarios. Tests cover different greetings, including cases with leading spaces and variations in capitalization.
+
+## 3. [Vanity Plates](Problem%20set%205%20Unit%20Tests/test_plates/)
+
+### [plates.py](Problem%20set%205%20Unit%20Tests/test_plates/plates.py)
+
+Implementation to validate vanity license plates according to specified rules. The `is_valid` function checks if a given license plate string meets the following requirements:
+- Contains exactly 7 characters,
+- Consists only of uppercase letters and digits,
+- Does not start or end with a digit.
+
+### [test_plates.py](Problem%20set%205%20Unit%20Tests/test_plates/test_plates.py)
+
+Unit tests for `plates.py` to validate the `is_valid` function comprehensively. Tests include valid and invalid plates based on length, character composition, and position of digits.
+
+## 4. [Fuel Gauge](Problem%20set%205%20Unit%20Tests/test_fuel/)
+
+### [fuel.py](Problem%20set%205%20Unit%20Tests/test_fuel/fuel.py)
+
+Implementation of functions related to converting fuel gauge readings and providing status. Includes:
+- `convert`: Converts a string in the format "X/Y" to a percentage rounded to the nearest integer between 0 and 100. Raises errors for invalid formats or divisions by zero.
+- `gauge`: Returns a status string based on an integer input:
+  - "E" if the integer is less than or equal to 1,
+  - "F" if the integer is greater than or equal to 99,
+  - "Z%" otherwise, where Z is the integer.
+
+### [test_fuel.py](Problem%20set%205%20Unit%20Tests/test_fuel/test_fuel.py)
+
+Unit tests for `fuel.py` to validate the `convert` and `gauge` functions comprehensively. Tests include valid conversions, edge cases for division errors, and checks for correct status string outputs based on integer inputs.
+
+
+
+
 ## Feel free to explore each problem set, run the programs, and modify them as needed!
 
