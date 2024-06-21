@@ -309,9 +309,9 @@ Unit tests for `fuel.py` to validate the `convert` and `gauge` functions compreh
 
 
 # Problem Set 6
-## 1. [Lines of Code](Problem%20set%206%20File%20Input%20Output/Lines%20of%20Code/)
+## 1. [Lines of Code](Problem%20set%206%20File%20Input%20Output/lines/)
 
-### [lines.py](Problem%20set%206%20File%20Input%20Output/Lines%20of%20Code/lines.py)
+### [lines.py](Problem%20set%206%20File%20Input%20Output/lines/lines.py)
 
 **Description:** Measures the number of lines of code (LOC) in a Python file, excluding comments and blank lines.
 **File:** `lines.py`
@@ -330,7 +330,7 @@ This program calculates and outputs the total lines of code in a specified Pytho
 
 This program reads pizza data from two CSV files (`sicilian.csv` and `regular.csv`) using `csv.DictReader`, processes the data to generate an ASCII art table using the `tabulate` module, and prints the formatted table to the console in GRID format.
 
-## [Scourgify](Problem%20set%206%20File%20Input%20Output/scourgify/)
+## 3. [Scourgify](Problem%20set%206%20File%20Input%20Output/scourgify/)
 
 ### [scourgify.py](Problem%20set%206%20File%20Input%20Output/scourgify/scourgify.py)
 
@@ -342,17 +342,12 @@ This program reads pizza data from two CSV files (`sicilian.csv` and `regular.cs
 
 This program reads student data from `before.csv`, which contains combined names and house information, splits each full name into first and last names, then writes the cleaned data to a new CSV file (`after.csv`) using `csv.DictWriter`.
 
-## [Shirt](Problem%20set%206%20File%20Input%20Output/shirt/)
+## 4. [Shirt](Problem%20set%206%20File%20Input%20Output/shirt/)
 
 ### [shirt.py](Problem%20set%206%20File%20Input%20Output/shirt/shirt.py)
 
-**Description:** Overlays a shirt image onto a given photo after resizing and cropping.
 **Files:**
-  `shirt.py`
-  `before1.jpg`
-  `before2.jpg`
-  `before3.jpg`
-  `shirt.png`
+  `shirt.py`, `before1.jpg`, `before2.jpg`, `before3.jpg`, `shirt.png`, `after1.jpg`
 
 This program overlays a shirt image (`shirt.png`) onto three different photos (`before1.jpg`, `before2.jpg`, `before3.jpg`). It resizes and crops each photo to fit the dimensions of the shirt image using the `PIL` (Python Imaging Library) i.e (pillow packages), then saves the resulting images as new files (`after1.jpg`, `after2.jpg`, `after3.jpg`). Two modules are used from PIL packages: 1. Image and ImageOps
 
