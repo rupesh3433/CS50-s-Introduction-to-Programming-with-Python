@@ -252,8 +252,6 @@ The program takes the number of Bitcoins as a command-line argument, fetches the
 
 # Problem Set 5
 
-This repository contains implementations and tests for Problem Set 5 assignments from CS50’s Introduction to Programming with Python.
-
 ## 1. [Setting up my twttr](Problem%20set%205%20Unit%20Tests/test_twttr/)
 
 ### [twttr.py](Problem%20set%205%20Unit%20Tests/test_twttr/twttr.py)
@@ -304,6 +302,59 @@ Implementation of functions related to converting fuel gauge readings and provid
 ### [test_fuel.py](Problem%20set%205%20Unit%20Tests/test_fuel/test_fuel.py)
 
 Unit tests for `fuel.py` to validate the `convert` and `gauge` functions comprehensively. Tests include valid conversions, edge cases for division errors, and checks for correct status string outputs based on integer inputs.
+
+
+
+
+
+
+# Problem Set 6
+## 1. [Lines of Code](Problem%20set%206%20File%20Input%20Output/Lines%20of%20Code/)
+
+### [lines.py](Problem%20set%206%20File%20Input%20Output/Lines%20of%20Code/lines.py)
+
+**Description:** Measures the number of lines of code (LOC) in a Python file, excluding comments and blank lines.
+**File:** `lines.py`
+
+This program calculates and outputs the total lines of code in a specified Python file, excluding comments and blank lines. It opens the specified file using `open()`, and applies string manipulation methods to filter out ***comments*** and ***blank lines*** before counting the remaining lines of code. Here, we ignore ***docstring*** as a comments.
+
+## 2. [Pizza](Problem%20set%206%20File%20Input%20Output/pizza/)
+
+### [pizza.py](Problem%20set%206%20File%20Input%20Output/pizza/pizza.py)
+
+**Description:** Generates an ASCII art table from a CSV file containing pizza data using the tabulate module.
+**Files:**
+  `pizza.py`
+  `sicilian.csv`
+  `regular.csv`
+
+This program reads pizza data from two CSV files (`sicilian.csv` and `regular.csv`) using `csv.DictReader`, processes the data to generate an ASCII art table using the `tabulate` module, and prints the formatted table to the console in GRID format.
+
+## [Scourgify](Problem%20set%206%20File%20Input%20Output/scourgify/)
+
+### [scourgify.py](Problem%20set%206%20File%20Input%20Output/scourgify/scourgify.py)
+
+**Description:** Cleans and restructures CSV data containing student names and houses.
+**Files:**
+  `scourgify.py`
+  `before.csv`
+  `before.csv`
+
+This program reads student data from `before.csv`, which contains combined names and house information, splits each full name into first and last names, then writes the cleaned data to a new CSV file (`after.csv`) using `csv.DictWriter`.
+
+## [Shirt](Problem%20set%206%20File%20Input%20Output/shirt/)
+
+### [shirt.py](Problem%20set%206%20File%20Input%20Output/shirt/shirt.py)
+
+**Description:** Overlays a shirt image onto a given photo after resizing and cropping.
+**Files:**
+  `shirt.py`
+  `before1.jpg`
+  `before2.jpg`
+  `before3.jpg`
+  `shirt.png`
+
+This program overlays a shirt image (`shirt.png`) onto three different photos (`before1.jpg`, `before2.jpg`, `before3.jpg`). It resizes and crops each photo to fit the dimensions of the shirt image using the `PIL` (Python Imaging Library) i.e (pillow packages), then saves the resulting images as new files (`after1.jpg`, `after2.jpg`, `after3.jpg`). Two modules are used from PIL packages: 1. Image and ImageOps
 
 
 
