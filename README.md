@@ -354,5 +354,81 @@ This program overlays a shirt image (`shirt.png`) onto three different photos (`
 
 
 
+
+
+
+# Problem Set 7
+
+## 1. [NUMB3RS](Problem%20set%207%20Regular%20Expressions/numb3rs/)
+
+### [numb3rs.py](Problem%20set%207%20Regular%20Expressions/numb3rs//numb3rs.py)
+
+**Description:** This program implements a function `validate` that checks if a given input string represents a valid IPv4 address.
+
+**Function:** `validate(ip)`
+
+Returns `True` if the input is a valid IPv4 address (in dot-decimal notation), otherwise `False`.
+
+### [test_numb3rs.py](Problem%20set%207%20Regular%20Expressions/numb3rs/test_numb3rs.py)
+
+**Description:** This file contains test functions to thoroughly test the `validate` function in `numb3rs.py`. Functions prefixed with `test_` validate different aspects of the `validate` function's behavior using pytest.
+
+## 2. [response](Problem%20set%207%20Regular%20Expressions/response/)
+
+### [response.py](Problem%20set%207%20Regular%20Expressions/response/response.py)
+
+**Description:** This program prompts the user for an email address and validates whether it is syntactically valid according to a standard email format.
+
+**Function:** `main()`
+
+- Prompts the user for an email address input.
+- Validates the email address using a specific library.
+- Prints "Valid" if the email address is syntactically valid; otherwise, prints "Invalid".
+
+## 3. [um](Problem%20set%207%20Regular%20Expressions/um/)
+
+### [um.py](Problem%20set%207%20Regular%20Expressions/um/um.py)
+
+**Description:** This program counts the occurrences of the word "um" (case-insensitive) as a standalone word in a given line of text.
+
+**Function:** `count(s)`
+
+- `s`: Input string in which to count occurrences of "um".
+
+Returns an integer representing the count of "um" as a standalone word in the input text.
+
+### [test_um.py](Problem%20set%207%20Regular%20Expressions/um/test_um.py)
+
+**Description:** This file contains test functions to thoroughly test the `count` function in `um.py`. Functions prefixed with `test_` validate different scenarios and edge cases for the `count` function using pytest.
+
+## 4. [watch](Problem%20set%207%20Regular%20Expressions/watch/)
+
+### [watch.py](Problem%20set%207%20Regular%20Expressions/watch/watch.py)
+
+**Description:** This program extracts a YouTube video ID from a given HTML string that contains an iframe element with a YouTube embed URL as its `src` attribute. It then converts this URL to the shorter youtu.be format.
+
+**Function:** `parse(s)`
+
+- `s`: Input HTML string containing an iframe element with a YouTube embed URL in `src` attribute.
+
+Returns the youtu.be equivalent URL extracted from the input HTML string, or `None` if no valid URL is found.
+
+## 5. [working](Problem%20set%207%20Regular%20Expressions/working/)
+
+### [working.py](Problem%20set%207%20Regular%20Expressions/working/working.py)
+
+**Description:** This program converts a time range in 12-hour AM/PM format to 24-hour military time format. It validates the input format and raises a `ValueError` for invalid formats or times.
+
+**Function:** `convert(s)`
+
+- `s`: Input string representing a time range in 12-hour AM/PM format.
+
+Returns the corresponding time range in 24-hour format (e.g., "9:00 AM to 5:00 PM" -> "09:00 to 17:00").
+
+### [test_working.py](Problem%20set%207%20Regular%20Expressions/working/test_working.py)
+
+**Description:** This file contains test functions to thoroughly test the `convert` function in `working.py`. Functions prefixed with `test_` validate different scenarios and edge cases for the `convert` function using pytest.
+
+
 ## Feel free to explore each problem set, run the programs, and modify them as needed!
 
